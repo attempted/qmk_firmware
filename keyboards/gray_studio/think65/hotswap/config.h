@@ -49,6 +49,8 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define RGB_DI_PIN E2
 #ifdef RGB_DI_PIN
     #define RGBLED_NUM 22
+// #define RGBLIGHT_LED_MAP { 4, 5, 6, 7 }
+    #define RGBLIGHT_RAINBOW_SWIRL_RANGE 120
     #define RGBLIGHT_HUE_STEP 8
     #define RGBLIGHT_SAT_STEP 8
     #define RGBLIGHT_VAL_STEP 8
