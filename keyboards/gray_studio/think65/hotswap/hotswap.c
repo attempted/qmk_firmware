@@ -27,7 +27,7 @@ void matrix_init_kb(void) {
   setPinOutput(C6);
   setPinOutput(C7);
   setPinOutput(F7);
-  rgblight_set_effect_range(4,4);
+  rgblight_set_effect_range(8,14);
   matrix_init_user();
 }
 
